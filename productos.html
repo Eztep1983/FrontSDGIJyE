@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter-ui.css">
+    <script src="./Java/Script.js"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter-ui.css">
+    <link rel="stylesheet" href="Style/Style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar Inventario</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>StockManagerJyE</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#categoria1">Categoría 1</a></li>
+                <li><a href="#categoria2">Categoría 2</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="categoria1">
+                <h2>Categoría 1</h2>
+                <ul>
+                    <li>Producto A</li>
+                    <li>Producto B</li>
+                </ul>
+
+                <form id="agregarProducto1">
+                    <h3>Agregar Producto</h3>
+                    <label for="nombreProducto">Nombre:</label>
+                    <input type="text" id="nombreProducto">
+                    <label for="descripcionProducto">Descripción:</label>
+                    <textarea id="descripcionProducto"></textarea>
+                    <input type="submit" value="Agregar">
+    
+                </form>
+
+                <form id="actualizarProducto1">
+                    <h3>Actualizar/Borrar Producto</h3>
+                    <label for="idProducto">ID del Producto:</label>
+                    <input type="text" id="idProducto">
+                    
+                    <input type="submit" value="Actualizar">
+                    <input type="submit" value="Borrar">
+                </form>
+            </section>
+
+            <section id="categoria2">
+                <h2>Categoría 2</h2>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2023 StockManagerJyE</p>
+        </footer>
+    </div>
+</body>
+</html>
