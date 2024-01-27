@@ -15,6 +15,27 @@
     font-weight: normal;
     text-transform: uppercase;
   }
+  
+    #boton_volver {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #3498db;
+        color: #fff;
+        border: 2px solid #3498db;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    #boton_volver:hover {
+        background-color: #297fb8;
+        color: #fff;
+    }
+
 </style>
 </head>
 <h1>Acerca de nosotros</h1>
@@ -74,8 +95,7 @@
             </div>
         </div>
         <div>
-            <script>function volver(){window.location.href="index.html"}</script>
-            <button class="success" id="button" onclick="volver()">Volver</button>
+            <button id="boton_volver" onclick="window.location.href='index.html'">Volver a Inicio</button>
         </div>
     </div>
 </div>
