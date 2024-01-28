@@ -249,10 +249,10 @@ html, body{
 }
 /*====== Backgrouns color*/
 .bg-primary {
-    background-color: #2D2F36 !important;
+    background-color: rgba(7, 168, 231, 0.986) !important;
 }
 .bg-success {
-    background-color: #2D2F36 !important;
+    background-color: rgba(7, 168, 231, 0.986) !important;
 }
 .bg-danger {
     background-color: #d9534f !important;
