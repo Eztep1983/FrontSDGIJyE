@@ -501,3 +501,20 @@ table th {
       font-size: 14px;
   }
 }
+
+
+h3 {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}

@@ -13,24 +13,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <style>
-        h3 {
-            font-size: 24px; 
-            font-weight: bold; 
-            color: #333; 
-            margin-bottom: 10px; 
-        }
-        button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-    </style>
+
 </head>
 <body id="color-facturar">
     <nav>
@@ -108,9 +91,7 @@
 
     <script>
         document.getElementById("facturar").addEventListener("click", function() {
-            // Simula la facturación exitosa
-            // Aquí puedes agregar la lógica real para guardar la factura en la base de datos, etc.
-            // En este ejemplo, simplemente mostramos la alerta y luego ofrecemos la opción de imprimir
+
             swal.fire({
                 title: '¡Facturación exitosa!',
                 icon: 'success',
@@ -119,9 +100,6 @@
                 cancelButtonText: 'Cerrar',
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Aquí puedes agregar la lógica para imprimir la factura
-                    // Puedes abrir una ventana de impresión o enviar la factura a una impresora
-                    // Por ejemplo:
                     window.print();
                 }
             });
