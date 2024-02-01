@@ -135,15 +135,16 @@ input::-moz-focus-inner {
   border: 0; 
 }
 #submit {
-  color: #beb9b9;
+  color: #ffffff;
   margin-top: 40px;
   transition: color 300ms;
+  position:left;
 }
 #submit:focus {
-  color: rgb(10, 95, 15);
+  color: rgb(10, 30, 95);
 }
 #submit:active {
-  color: #016634;
+  color: #006dd3;
 }
 
 #agregarProducto1 {
